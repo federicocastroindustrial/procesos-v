@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materiales y Procesos 5</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4CAF50;
+        }
+        .container {
+            padding: 20px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #f9f9f9;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+            color: #666;
+        }
+        .summary {
+            margin: 30px 0;
+        }
+        .summary h2 {
+            color: #4CAF50;
+        }
+        .summary p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 30%;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            padding: 5px;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Materiales y Procesos 5</h1>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Proyecto</a>
+        <a href="#">Análisis</a>
+        <a href="#">Reciclaje</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <div class="container">
+        <div class="hero">
+            <h1>Desarmando para Construir un Futuro Sostenible</h1>
+            <p>¿Qué pasa con los productos que dejamos de utilizar?</p>
+        </div>
+        <div class="summary">
+            <h2>Resumen del Proyecto</h2>
+            <p>En la materia de Materiales y Procesos 5, exploramos el ciclo de vida de los productos tecnológicos desde una perspectiva de diseño industrial. Este proyecto consiste en desarmar un humidificador de ambiente, clasificar sus componentes y evaluar su reciclabilidad.</p>
+            <p><strong>Objetivos del Proyecto:</strong></p>
+            <ul>
+                <li>Concientización Ambiental: Reflexionar sobre el impacto ambiental de los productos tecnológicos.</li>
+                <li>Reciclaje y Reutilización: Identificar qué materiales son reciclables y cómo pueden ser reutilizados.</li>
+                <li>Innovación en Diseño: Proponer soluciones sostenibles y eficientes para el diseño de futuros productos.</li>
+            </ul>
+            <p>Cada componente de un producto tiene un destino al final de su vida útil. Conocer estos destinos y aprender a gestionarlos de manera responsable es crucial para reducir nuestro impacto ambiental.</p>
+        </div>
+        <div class="gallery">
+            <h2>Galería del Proceso</h2>
+            <img src="img/desarmado1.jpg" alt="Desarmado del Humidificador 1">
+            <img src="img/desarmado2.jpg" alt="Desarmado del Humidificador 2">
+            <img src="img/desarmado3.jpg" alt="Desarmado del Humidificador 3">
+        </div>
+    </div>
+    <footer>
+        <p>Contacto: <a href="mailto:info@materialesyprocesos5.com">info@materialesyprocesos5.com</a></p>
+    </footer>
+</body>
+</html>
